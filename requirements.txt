@@ -1,6 +1,6 @@
 # Shopify checker — runtime dependencies
 # install: pip install -r requirements.txt
 
-flask[async]>=3.0,<4.0
-aiohttp>=3.9,<4.0
-aiohttp-socks>=0.8,<1.0
+flask
+httpx
+gunicorn
